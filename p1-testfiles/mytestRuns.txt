@@ -1,0 +1,163 @@
+p1-test1.in OUTPUT
+NO OUTPUT 
+
+
+p1-test2.in OUTPUT
+
+Ozymandias
+
+Percy Bysshe Shelley, 1792 - 1822
+
+I  met a traveller from an antique land Who said: "Two  vast
+and  trunkless legs of stone Stand in the desert . . .  Near
+them, on the sand, Half sunk, a shattered visage lies, whos-
+
+e   frown,
+And wrink-
+led   lip,
+and  sneer
+
+of  cold command, Tell that its sculptor
+well those passions read Which yet surv-
+ive,   stamped on these lifeless things,
+
+The hand that mocked them, and the heart that fed: And on the pedestal these words appear: 'My name is Ozymandias, ki-
+ng of kings: Look on my works, ye Mighty, and despair!' Nothing beside remains. Round the decay Of that colossal wrec-
+k, boundless and bare The lone and level sands stretch far away."-
+Program ended with exit code: 0
+
+
+
+p1-test3.in OUTPUT
+Ozymandias
+
+Percy Bysshe Shelley, 1792 - 1822
+
+I  met a traveller from an antique land Who said: "Two  vast
+and trunkless legs of stone
+
+Stand in the desert . . . Near them, on the sand, Half sunk-
+, a shattered visage lies, whose frown,
+
+And  wrinkled lip, and sneer of cold command, Tell that  its
+sculptor well those passions read
+
+Which yet survive, stamped on these lifeless things, The ha-
+nd that mocked them, and the heart that fed:
+
+And on the pedestal these words appear: 'My name is Ozymand-
+ias, king of kings:
+
+Look on my works, ye Mighty, and despair!' Nothing beside r-
+emains. Round the decay
+
+Of that colossal wreck, boundless and bare The lone and lev-
+Of that colossal wreck, boundless and bare The lone and lev-el sands stretch
+far away."
+Program ended with exit code: 0
+
+
+p1-test4.in OUTPUT
+Mutability
+
+Percy Bysshe Shelley, 1792 - 1822
+
+We are as clouds that veil the midnight moon; How
+restlessly they speed, and gleam, and quiver, Str-
+eaking the darkness radiantly!--yet soon Night cl-
+oses round, and they are lost forever:
+
+Or   like forgotten lyres, whose dissonant strings
+Give various response to each varying blast, To w-
+
+hose frai-
+l frame n-
+o   second
+motion br-
+
+ings One mood or modulation like the la-
+st.  We rest.--A dream has power to poi-
+son sleep; We rise.--One wandering thou-
+ght  pollutes the day; We feel, conceive
+or   reason, laugh or weep; Embrace fond
+Program ended with exit code: 0
+
+
+
+p1-test5.in OUTPUT
+ThisIsAReallyL-
+ongLineThatMig-
+htHaveToStretc-
+hOutABit  This-
+IsExactly15  F-
+oo!
+
+
+You say you stand by your man Tell me something I don't understand-
+
+You said you love me and that-
+'s a fact And then you left m-
+e, said you felt trapped  Wel-
+l  some things you can explain
+away But the heartache's in m-
+e till this day  Did you stan-
+d by me No, not at all-
+
+Did you stand by me No way-
+
+
+All the times When we were cl-
+ose I'll remember these thing-
+s the most I see all my dream-
+s  come tumbling down I  can't
+s  come tumbling down I  can'tbe happy
+without you around
+
+So all alone I keep the wolve-
+s at bay And there is only on-
+e thing that I can say  Did y-
+ou stand by me No, not at all-
+
+Did you stand by me No way-
+
+
+You must explain why this mus-
+t be Did you lie when you spo-
+ke to me  Did you stand by me-
+
+No, not at all
+
+Now  I got a job But it  don't
+pay I need new clothes-
+
+I  need somewhere to stay  But
+without all these things I ca-
+n   do But without your love I
+won't make it through  But yo-
+u don't understand my point o-
+f view I suppose there's noth-
+ing I can do  Did you stand b-
+y me No, not at all-
+
+Did you stand by me No way-
+
+
+Did you stand by me No, not a-
+t all Did you stand by me-
+
+No way
+
+You must explain why this mus-
+t be Did you lie when you spo-
+
+ke to me? Did you s-
+tand   by me Did you
+stand  by me No, not
+at all Did you stan-
+d  by me No way  Did
+you stand by me No,
+not  at all Did  you
+not  at all Did  youstand by
+me No way-
+
+Program ended with exit code: 0
