@@ -1,6 +1,8 @@
 // << Swami Shreeji >>
 /* Nishant Patel; Oct 27, 2016; cs280 Proj2 Lexer */
 
+// Oct 3 2017 - Adding instructions on how to compile/run in README.txt
+
 #include <iostream>
 #include <istream>
 #include <fstream>
@@ -140,7 +142,6 @@ int main(int argc, char* argv[])
       cout << "Number of uniq lexemes for STR: " << x[STR].size() << endl;
       cout << "Number of uniq lexemes for INT: " << x[INT].size() << endl;
       
-
     // For it to NOT SEG FAULT on AFS. NJIT requirement, else it works with return 0 normally
     exit (1);  
 	return 0;

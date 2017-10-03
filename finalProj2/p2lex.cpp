@@ -32,14 +32,10 @@ Token getToken(istream *instream)
 		 Token temp(DONE, "eof");
 		 return temp;
 	} 
-
-
-/* Now, work on all the cases you can have of ch->get() */	
 	
 
-// Start building lexeme. Falls into IFs	
+// Start building lexeme
 ch = instream->get();
-
 
 	// Newline? : linenum++ 
 	if (ch == '\n')	
@@ -47,7 +43,6 @@ ch = instream->get();
 		linenum++;
 		// ch = instream->get() ??	
 	}
-
 
 	// IF blanks, move get() onward
 	while (isspace(ch) ) 
@@ -64,7 +59,6 @@ ch = instream->get();
 		return temp;
 	}
 
-
 	// "*"? : return Token
 	if (ch == '*') 
 	{
@@ -74,7 +68,6 @@ ch = instream->get();
 		return temp;
 	}
 
-
 	// "["? : return Token
 	if (ch == '[') 
 	{
@@ -83,7 +76,6 @@ ch = instream->get();
 		verboseOut.push_back("leftsq");
 		return temp;
 	}
-	
 
 	// "]"? : return Token
 	if (ch == ']') 
@@ -94,7 +86,6 @@ ch = instream->get();
 		return temp;
 	}
 
-	
 	// "("? : return Token
 	if (ch == '(') 
 	{
@@ -103,7 +94,6 @@ ch = instream->get();
 		verboseOut.push_back("lparen");
 		return temp;
 	}
-
 
 	// ")"? : return Token
 	if (ch == ')') 
@@ -114,7 +104,6 @@ ch = instream->get();
 		return temp;
 	}
 
-
 	// ";"? : return Token
 	if (ch == ';') 
 	{
@@ -123,7 +112,6 @@ ch = instream->get();
 		verboseOut.push_back("sc");
 		return temp;
 	}
-
 
 	// "INT"? : return Token
 	if (isdigit(ch)) 
@@ -135,7 +123,6 @@ ch = instream->get();
 		verboseOut.push_back(s);
 		return temp;
 	}
-
 
 	// Entering "string"
 	if (ch == '"') 
@@ -176,7 +163,6 @@ ch = instream->get();
 		return temp;	 
 	}
 
-
 	// Maybe entering comment
 	if (ch == '/') 
 	{
@@ -191,7 +177,6 @@ ch = instream->get();
 	}
 
 	/* Checked indiv char tokens. Now need to check IDs, KEYWORDs (print, set) */
-
 	// ID? : Build lexeme
 	if (isalpha(ch)) 
 	{
@@ -232,6 +217,3 @@ ch = instream->get();
 	/* NOT returning anything. IF returning empty token, shows as ERR in output */
 
 }
-
-
-
