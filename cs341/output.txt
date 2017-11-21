@@ -1,0 +1,402 @@
+Nishants-MBP:341proj2 Nishant$ g++ -std=c++0x p2_17s_np358.cpp 
+Nishants-MBP:341proj2 Nishant$ ./a.out 
+Do you want to enter an expression?
+y
+Please enter a string
+$_a_3B$
+you typed: $_a_3B$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: a Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: B Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q4 Symbol popped: $. Symbol pushed: <empty>
+$_a_3B$ is accepted.
+Do you want to enter an expression?
+y
+Please enter a string
+$_ba76+R*3-fF_45n/812$
+you typed: $_ba76+R*3-fF_45n/812$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: a Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 7 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 6 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: R Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: F Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 4 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 5 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: n Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 8 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 1 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q4 Symbol popped: $. Symbol pushed: <empty>
+$_ba76+R*3-fF_45n/812$ is accepted.
+Do you want to enter an expression?
+y
+Please enter a string
+$ba+_c4*7m-f8/h98u$
+you typed: $ba+_c4*7m-f8/h98u$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: b Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: a Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: c Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 4 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 7 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: m Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 8 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: h Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 9 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 8 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$ba+_c4*7m-f8/h98u$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$y33(x23g)$
+you typed: $y33(x23g)$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: y Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current State: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: x Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: g Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$y33(x23g)$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$(((r1+9-fs)*212))*(a2)$
+you typed: $(((r1+9-fs)*212))*(a2)$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: r Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 1 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 9 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: s Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 1 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q6 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: ) Current state: q6 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: a Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: $ Current state: q4 Symbol popped: $. Symbol pushed: <empty>
+$(((r1+9-fs)*212))*(a2)$ is accepted.
+Do you want to enter an expression?
+y
+Please enter a string
+$(t0+wk)*bn)/c1$
+you typed: $(t0+wk)*bn)/c1$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 0 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: w Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: k Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: n Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: $. Symbol pushed: <empty>
+Symbol read: / Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: c Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 1 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$(t0+wk)*bn)/c1$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$(((ui+ej*(vk+ci))/pt)$
+you typed: $(((ui+ej*(vk+ci))/pt)$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: u Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: i Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: e Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: j Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: v Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: k Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: c Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: i Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: p Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: $ Current State: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$(((ui+ej*(vk+ci))/pt)$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$+g5$
+you typed: $+g5$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: + Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: g Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 5 Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$+g5$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$52*(872/(P+kd34E/e3)-FW)+6/(((rw*_y4_b_d-r57ee*t)/y6+ugf))$
+you typed: $52*(872/(P+kd34E/e3)-FW)+6/(((rw*_y4_b_d-r57ee*t)/y6+ugf))$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: 5 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: 8 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 7 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 2 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: P Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: k Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: d Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 4 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: E Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: e Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 3 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: F Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: W Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 6 Current state: q6 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: r Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: w Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: y Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 4 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: _ Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: d Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: r Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 5 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 7 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: e Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: e Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: y Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 6 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: g Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: $ Current state: q4 Symbol popped: $. Symbol pushed: <empty>
+$52*(872/(P+kd34E/e3)-FW)+6/(((rw*_y4_b_d-r57ee*t)/y6+ugf))$ is accepted.
+Do you want to enter an expression?
+y
+Please enter a string
+$g0*(hs+(df-*ft))$
+you typed: $g0*(hs+(df-*ft))$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: g Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 0 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: h Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: s Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: d Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: f Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: t Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$g0*(hs+(df-*ft))$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$(tg+(hy-j7))/uk)*ri+(eo/wp$
+you typed: $(tg+(hy-j7))/uk)*ri+(eo/wp$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: g Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: h Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: y Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: j Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 7 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: k Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: $. Symbol pushed: <empty>
+Symbol read: * Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: r Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: i Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: e Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: o Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: / Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: w Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: p Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$(tg+(hy-j7))/uk)*ri+(eo/wp$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$(tg+(hy-j9))/uk)ri$
+you typed: $(tg+(hy-j9))/uk)ri$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: g Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: h Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: y Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: j Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: 9 Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: / Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: k Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: $. Symbol pushed: <empty>
+Symbol read: r Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: i Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$(tg+(hy-j9))/uk)ri$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$wm-(tn*bu)+$
+you typed: $wm-(tn*bu)+$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: w Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: m Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q1 Symbol popped: <empty>. Symbol pushed: (
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: n Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q2 Symbol popped: (. Symbol pushed: <empty>
+Symbol read: + Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$wm-(tn*bu)+$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$wm-tn(*bu)$
+you typed: $wm-tn(*bu)$
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: w Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: m Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: t Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: n Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current State: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$wm-tn(*bu)$ is rejected.
+Do you want to enter an expression?
+y
+Please enter a string
+$wm-)tn*bu($
+you typed: $wm-)tn*bu($
+BEGIN. Starting at state q0
+Symbol read: $ Current state: q1 Symbol popped: <empty>. Symbol pushed: $
+Symbol read: w Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: m Current state: q2 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: - Current state: q1 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ) Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: t Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: n Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: * Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: b Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: u Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: ( Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+Symbol read: $ Current state: q5 Symbol popped: <empty>. Symbol pushed: <empty>
+$wm-)tn*bu($ is rejected.
+Do you want to enter an expression?
+n
+p2_17s_np358.cpp will terminate now.
+Program completed successfully.
+Nishants-MBP:341proj2 Nishant$ 

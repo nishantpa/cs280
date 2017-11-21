@@ -1,0 +1,363 @@
+Nishants-MBP:341proj1 Nishant$ g++ -std=c++0x p1_17s_np358.cpp 
+Nishants-MBP:341proj1 Nishant$ ./a.out 
+Do you want to enter a string?
+y
+Please enter a string
+www.commercial.com
+you typed: www.commercial.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+m, STATE: q13
+e, STATE: q13
+r, STATE: q13
+c, STATE: q13
+i, STATE: q13
+a, STATE: q13
+l, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+www.commercial.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.co.com
+you typed: www.co.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+o, STATE: q11
+m, STATE: q11
+www.co.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.x.com
+you typed: www.x.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+x, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+www.x.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+njit.ca
+you typed: njit.ca
+BEGIN TEST. State: q1
+n, STATE: q13
+j, STATE: q13
+i, STATE: q13
+t, STATE: q13
+., STATE: q14
+c, STATE: q6
+a, STATE: q9
+njit.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+wwww.stanford.com
+you typed: wwww.stanford.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+w, STATE: q15
+., STATE: q15
+s, STATE: q15
+t, STATE: q15
+a, STATE: q15
+n, STATE: q15
+f, STATE: q15
+o, STATE: q15
+r, STATE: q15
+d, STATE: q15
+., STATE: q15
+c, STATE: q15
+o, STATE: q15
+m, STATE: q15
+wwww.stanford.com is rejected.
+Do you want to enter a string?
+y
+Please enter a string
+www.com.com
+you typed: www.com.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+www.com.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+ww.com.com
+you typed: ww.com.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+., STATE: q15
+c, STATE: q15
+o, STATE: q15
+m, STATE: q15
+., STATE: q15
+c, STATE: q15
+o, STATE: q15
+m, STATE: q15
+ww.com.com is rejected.
+Do you want to enter a string?
+y
+Please enter a string
+co.ca
+you typed: co.ca
+BEGIN TEST. State: q1
+c, STATE: q13
+o, STATE: q13
+., STATE: q14
+c, STATE: q6
+a, STATE: q9
+co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.ca.co.ca
+you typed: www.ca.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+a, STATE: q9
+., STATE: q13
+c, STATE: q13
+o, STATE: q13
+., STATE: q14
+c, STATE: q6
+a, STATE: q9
+www.ca.co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.com
+you typed: www.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+www.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.ca
+you typed: www.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+a, STATE: q9
+www.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.cat.com
+you typed: www.cat.com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+a, STATE: q9
+t, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+www.cat.com is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+wwwb.co.ca
+you typed: wwwb.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+b, STATE: q15
+., STATE: q15
+c, STATE: q15
+o, STATE: q15
+., STATE: q15
+c, STATE: q15
+a, STATE: q15
+wwwb.co.ca is rejected.
+Do you want to enter a string?
+y
+Please enter a string
+www..com
+you typed: www..com
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+., STATE: q13
+c, STATE: q13
+o, STATE: q13
+m, STATE: q13
+www..com is rejected.
+Do you want to enter a string?
+y
+Please enter a string
+www.abcd.co
+you typed: www.abcd.co
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+a, STATE: q13
+b, STATE: q13
+c, STATE: q13
+d, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+www.abcd.co is rejected.
+Do you want to enter a string?
+y
+Please enter a string
+www.company.co.ca
+you typed: www.company.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+p, STATE: q13
+a, STATE: q13
+n, STATE: q13
+y, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+a, STATE: q12
+www.company.co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+company.co.ca
+you typed: company.co.ca
+BEGIN TEST. State: q1
+c, STATE: q13
+o, STATE: q13
+m, STATE: q13
+p, STATE: q13
+a, STATE: q13
+n, STATE: q13
+y, STATE: q13
+., STATE: q14
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+a, STATE: q12
+company.co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.co.co.ca
+you typed: www.co.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+o, STATE: q11
+., STATE: q11
+c, STATE: q11
+a, STATE: q12
+www.co.co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.com.co.ca
+you typed: www.com.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+m, STATE: q8
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+a, STATE: q12
+www.com.co.ca is accepted.
+Do you want to enter a string?
+y
+Please enter a string
+www.co.ca
+you typed: www.co.ca
+BEGIN TEST. State: q1
+w, STATE: q2
+w, STATE: q3
+w, STATE: q4
+., STATE: q5
+c, STATE: q6
+o, STATE: q7
+., STATE: q10
+c, STATE: q11
+a, STATE: q12
+www.co.ca is accepted.
+Do you want to enter a string?
+n
+p1_17s_np358.cpp will terminate now.
+Program completed successfully.
+Nishants-MBP:341proj1 Nishant$ 
