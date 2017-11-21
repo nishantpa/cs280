@@ -50,8 +50,7 @@ int DFATest(string test)
 					result = false;
 					break;
 				}
-
-
+				
 			case q2:
 				if (c == 'w') 
 				{
@@ -65,7 +64,6 @@ int DFATest(string test)
 					result = false;
 					break;
 				}
-
 
 			case q3:
 				if (c == 'w') 
@@ -81,7 +79,6 @@ int DFATest(string test)
 					break;
 				}
 
-				
 			case q4:
 				if (c == '.') 
 				{
@@ -96,7 +93,6 @@ int DFATest(string test)
 					break;
 				}
 
-
 			case q5:
 				if (c == 'c') 
 				{
@@ -110,7 +106,6 @@ int DFATest(string test)
 					result = false;
 					break;
 				}
-
 
 			case q6:
 				if (c == 'o') 
@@ -132,7 +127,6 @@ int DFATest(string test)
 					break;
 				 }
 
-
 			case q7:
 				if (c == 'm') 
 				{
@@ -153,7 +147,6 @@ int DFATest(string test)
 					break;
 				 }
 
-
 			case q8:
 				if (c == '.') 
 				{
@@ -168,7 +161,6 @@ int DFATest(string test)
 					break;
 				}
 
-
 			case q9:
 			{
 				state = q13;
@@ -177,7 +169,6 @@ int DFATest(string test)
 				break;
 			}
 				
-
 			case q10:
 				if (c == 'c') 
 				{
@@ -186,7 +177,6 @@ int DFATest(string test)
 					result = false;
 					break;
 				}
-
 
 			case q11:
 				if (c == 'a') 
@@ -197,7 +187,6 @@ int DFATest(string test)
 					break;
 				}
 
-
 			// No transition out of q12
 			case q12:
 			{
@@ -205,7 +194,6 @@ int DFATest(string test)
 				result = true;
 				break;
 			}
-
 
 			case q13:
 				if (c == '.') 
@@ -220,7 +208,6 @@ int DFATest(string test)
 					result = false;
 					break;
 				}
-
 
 			case q14:
 				if (c == 'c') 
@@ -238,7 +225,6 @@ int DFATest(string test)
 				// cout << "Entered TRAP " << c << endl;
 				result = false;
 				continue;
-
 
 			default:
 			{
@@ -259,7 +245,6 @@ int DFATest(string test)
 	} else {
 		cout << test << " is rejected." << endl;
 	}
-	
 	return 0;	
 }
 
@@ -290,7 +275,6 @@ int main (int argc, char *argv[])
 		}
 
 	}
-	
 	cout << "Program completed successfully." << endl;
 	return 0;
 }

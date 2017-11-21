@@ -241,7 +241,6 @@ using namespace std;
 						break;
 					}
 
-					
 			} // end switch/case 
 
 		}  // end getchar
@@ -254,7 +253,6 @@ using namespace std;
 			cout << test << " is rejected." << endl;
 		}
 
-	
 	return 0;
 
 	} // end PDATest
