@@ -1,2 +1,2 @@
-# cs280
+# cs@njit
 Projs from different CS classes at NJIT
